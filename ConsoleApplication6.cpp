@@ -9,10 +9,10 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    int x;
-    cout << "введіть цифру 1-9: " << endl;
+    int x1;
+    cout << "введіть цифру 1-10: " << endl;
     cin >> x;
-    switch (x)
+    switch ( x1 )
     {
     case 0: cout << "t"; break;
     case 1: cout << "a"; break;
@@ -24,6 +24,7 @@ int main()
     case 7: cout << "h"; break;
     case 8: cout << "i"; break;
     case 9: cout << "k"; break;
+    case 10: cout << "e"; break;
 
     }
 
