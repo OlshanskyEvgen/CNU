@@ -25,6 +25,9 @@ int main()
     case 8: cout << "i"; break;
     case 9: cout << "k"; break;
     case 10: cout << "e"; break;
+    case 11: cout << "e"; break;
+    case 12: cout << "f"; break;
+    case 13: cout << "g"; break;
 
     }
 
