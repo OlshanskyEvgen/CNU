@@ -38,12 +38,7 @@ int AFunc(int x, int y, int a) {
         return  (pow(sin(pow(y, 3)), 2) != 0) ? A : 0 ;
 }
 
-int BFunc(float x, float y, float z) {
-    float B, m, d ;
-    m = fabs((24 * z) - (8 * y));
-    d = pow(y, 3) / 9 * x;
-    B = (sqrt((10 * pow(x, 2)) - d) + pow((pow(m, 3)) / (pow(z, 3)), 1 / 3));
-    return  (pow(z, 3) != 0 && 9 * x != 0  ) ? B : 0;
+
 }
 bool CFunc(float x1, float x2) {
     return (x1 <= x2) ? true : false;
