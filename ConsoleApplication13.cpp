@@ -28,6 +28,18 @@ int main()
     c1 = AFunc(x, y, a);
     c2 = BFunc(x, y, z);
     cout << "A <= B " << boolalpha<< CFunc(c1, c2 );
+    cout << "введіть значення y : ";
+    cin >> y;
+    cout << "введіть значення a : ";
+    cin >> a;
+    cout << "введіть значення x : ";
+    cin >> z;
+    cout << "функція A = " << AFunc(x, y, a) << endl;
+    cout << "функція B = " << BFunc(x, y, z) << endl;
+    c1 = AFunc(x, y, a);
+    c2 = BFunc(x, y, z);
+    cout << "A <= B " << boolalpha << CFunc(c1, c2);
+}
 }
 
 int AFunc(int x, int y, int a) {
