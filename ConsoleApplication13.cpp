@@ -43,6 +43,12 @@ int AFunc(int x, int y, int a) {
     y = pow(y, 3);
     A = (2 * pow(cos((5 * x) + (M_PI / 3)), 2)) / (pow(sin(y), 2)) + cos(a);
     return  (pow(sin(pow(y, 3)), 2) != 0) ? A : 0;
+    int AFunc(int x, int y, int a) {
+        float A;
+        a = (a * (M_PI / 180)) + 1, 8326;
+        y = pow(y, 3);
+        A = (2 * pow(cos((5 * x) + (M_PI / 3)), 2)) / (pow(sin(y), 2)) + cos(a);
+        return  (pow(sin(pow(y, 3)), 2) != 0) ? A : 0;
 }
 
 }
