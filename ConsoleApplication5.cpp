@@ -11,10 +11,7 @@ int main()
     double x11, x12, x21, x22, F ;
     cout << "enter " << "x11"  << endl;
     cin >> x11 >> x12;
-    cout << "enter " << "x21"  << endl;
-    cin >> x21 >> x22;
-    F = x11 * x22 - x12 * x21 ;
-    cout << F;  
+      
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
