@@ -11,6 +11,21 @@ int main()
     double x11, x12, x21, x22, F ;
     cout << "enter " << "x11"  << endl;
     cin >> x11 >> x12;
+    double x11, x12, x21, x22, F;
+    cout << "enter " << "x11" << endl;
+    double x11, x12, x21, x22, F;
+    cout << "enter " << "x11" << endl;
+    cin >> x11 >> x12;
+    double x11, x12, x21, x22, F;
+    cout << "enter " << "x11" << endl;
+    double x11, x12, x21, x22, F;
+    cout << "enter " << "x11" << endl;
+    cin >> x11 >> x12;
+    double x11, x12, x21, x22, F;
+    cout << "enter " << "x11" << endl;
+    cin >> x11 >> x12;
+    cin >> x11 >> x12;
+    cin >> x11 >> x12;
     
 }
 
